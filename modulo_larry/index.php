@@ -135,10 +135,10 @@ $nombreUsuario = $usuario['nombre_us'];
                 </div>
             </a>
 
-            <a href="#">
+            <a href="PHP/developer/activacion.php">
                 <div class="option">
-                    <i class="far fa-id-badge" title="Contacto"></i>
-                    <h4>Contacto</h4>
+                    <i class="far fa-id-badge" title="activar licencia"></i>
+                    <h4>activar licencia</h4>
                 </div>
             </a>
 
