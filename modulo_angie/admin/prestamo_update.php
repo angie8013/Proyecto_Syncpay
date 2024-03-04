@@ -17,9 +17,10 @@ if (!isset($_SESSION['id_us'])) {
 $id_rol = $_SESSION['id_rol'];
 if ($id_rol == '5') {
 
-$sql = $con -> prepare ("SELECT * FROM prestamo, usuarios WHERE prestamo.ID_Empleado = usuarios.id_us AND prestamo.ID_prest = '".$_GET['id']."'");
+$sql = $con -> prepare ("SELECT * FROM prestamo, estado WHERE prestamo.ID_prest = '".$_GET['id']."'");
 $sql -> execute();
 $usua = $sql -> fetch();
+
 ?>
 
 <?php
@@ -83,7 +84,7 @@ if(isset($_POST["update"]))
                 </tr>
                 <tr>
                     <td>Cantidad de cuotas</td>
-                    <td><input name ="Cantidad_cuotas" value="<?php echo $usua['Cantidad_cuotas']?>" ></td>
+                    <td><input name ="Cantidad_cuotas" id="valor1" step="0.001" oninput="calcular()" value="<?php echo $usua['Cantidad_cuotas']?>"></td>
                 </tr>
 
                 <tr>
@@ -93,26 +94,26 @@ if(isset($_POST["update"]))
 
                 <tr>
                     <td>Cuotas en deuda</td>
-                    <td><input name ="cuotas_en_deuda" value="<?php echo $usua['cuotas_en_deuda']?>" ></td>
+                    <td><input name ="cuotas_en_deuda" id="total"  value="<?php echo $usua['cuotas_en_deuda']?>" readonly ></td>
                 </tr>
 
                 <tr>
                     <td>Cuotas pagas</td>
-                    <td><input name ="cuotas_pagas" value="<?php echo $usua['cuotas_pagas']?>" ></td>
+                    <td><input name ="cuotas_pagas" id="valor2" step="0.001" oninput="calcular()" value="<?php echo $usua['cuotas_pagas']?>" ></td>
                 </tr>
 
                 <tr>
                     <td>Valor</td>
-                    <td><input name ="VALOR" value="<?php echo $usua['VALOR']?>" ></td>
+                    <td><input name ="VALOR" value="<?php echo $usua['VALOR']?>" readonly ></td>
                 </tr>
 
                 <tr>
                     <td>Estado de solicitud</td>
                     <td>
                 <select name="ESTADO_SOLICITUD">
-                    <option value="<?php echo($usua['ESTADO_SOLICITUD'])?>"><?php echo($usua['Estado'])?></option>
+                <option value="<?php echo($usua['ESTADO_SOLICITUD'])?>"><?php echo($usua['Estado'])?></option>
                 <?php
-                    $control = $con -> prepare ("SELECT * from estado WHERE ID_Es > 3 ");
+                    $control = $con -> prepare ("SELECT * from estado WHERE ID_Es > 3");
                     $control -> execute();
                 while ($fila = $control->fetch(PDO::FETCH_ASSOC)) 
                 {
@@ -136,8 +137,17 @@ if(isset($_POST["update"]))
             </tr>
             </form>
             </table>
-
             </body>
+            <script type="text/javascript">
+    function calcular() {
+      try {
+        var a = parseInt(document.getElementById("valor1").value) || 0,
+          b = parseInt(document.getElementById("valor2").value) || 0;
+        var resultado = a - b;
+        document.getElementById("total").value = resultado;
+      } catch (e) {}
+    }
+  </script>
             </html>
             <?php
 } else {

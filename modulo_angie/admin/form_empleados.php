@@ -126,7 +126,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "regm")) {
                 <option value="">Seleccione Rol</option>
 
                 <?php
-                $control = $con->prepare("SELECT * from roles where ID >=0");
+                $control = $con->prepare("SELECT * from roles where ID > 4");
                 $control->execute();
                 while ($fila = $control->fetch(PDO::FETCH_ASSOC)) {
                   echo "<option value=" . $fila['ID'] . ">" . $fila['TP_user'] . "</option>";

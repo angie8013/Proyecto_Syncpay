@@ -217,7 +217,7 @@ if ($id_rol == '4') {
                             <tr>
                                 <th scope="col">ID</th>
                                 <th scope="col">ESTADO</th>
-                                <th scope="col">Acciones</th>
+                                <th scope="col">ACCIONES</th>
                                 <th scope="col">CARGAR</th>
                             </tr>
                         </thead>
