@@ -128,7 +128,7 @@ $nombreUsuario = $usuario['nombre_us'];
                 </div>
             </a>
 
-            <a href="../modulo_angie/admin/form_empleados.php">
+            <a href="../modulo_larry/PHP/developer/register.php">
                 <div class="option">
                     <i class="far fa-regular fa-user" title="Login"></i>
                     <h4>Registrar Dev</h4>

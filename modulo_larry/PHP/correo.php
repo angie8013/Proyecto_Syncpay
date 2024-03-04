@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['id_us'] = $id_us;
 
         $titulo = "Recuperacion de contraseña";
-        $msj = "Su contraseña actual es: $pass. Por su seguridad, es recomendable cambiar su contraseña.";
+        $msj = "El codigo de recuparacion es: $pass. Por su seguridad no comparta  este codigo.";
         $tucorreo = "From: senatrabajos2022@gmail.com";
 
         if (mail($correo_us, $titulo, $msj, $tucorreo)) {
