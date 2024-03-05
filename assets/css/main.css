@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #0a0d13;
-  --color-primary: #0d42ff;
+  --color-primary: #000000;
   --color-secondary: #0e1d34;
 }
 
@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #406aff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -76,7 +76,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #001973;
+  color: #ffffff;
   position: relative;
   z-index: 2;
   margin-bottom: 20px;
@@ -188,7 +188,7 @@ section {
 .breadcrumbs nav ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #4278cc;
+  color: #3b3b3b;
   content: "/";
 }
 
@@ -216,7 +216,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(13, 66, 255, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   color: #fff;
 }
 
@@ -233,7 +233,7 @@ section {
   inset: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #000000;
   transition: all 0.6s ease-out;
   width: 100%;
   height: 100vh;
@@ -367,7 +367,7 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: #2756ff;
+    background: #000000;
   }
 
   .navbar .dropdown ul {
@@ -380,7 +380,7 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #fff;
+    background: #000000;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
     border-radius: 4px;
@@ -466,7 +466,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(14, 29, 52, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -512,7 +512,7 @@ section {
   .navbar .get-a-quote:hover,
   .navbar .get-a-quote:focus:hover {
     color: #fff;
-    background: rgba(13, 66, 255, 0.8);
+    background: rgba(0, 0, 0, 0.8);
   }
 
   .navbar .dropdown ul,
@@ -522,7 +522,7 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid #19335c;
+    border: 1px solid #000000;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -606,7 +606,7 @@ section {
 
 .featured-services .service-item .description {
   font-size: 15px;
-  color: #132848;
+  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -636,7 +636,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   font-family: var(--font-secondary);
-  color: #001f8d;
+  color: #000000;
 }
 
 .about .content ul {
@@ -661,7 +661,7 @@ section {
 .about .content ul h5 {
   font-size: 18px;
   font-weight: 700;
-  color: #19335c;
+  color: #000000;
 }
 
 .about .content ul p {
@@ -696,7 +696,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(13, 66, 255, 0.7);
+  border: 5px solid rgba(0, 0, 0, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -781,7 +781,7 @@ section {
 }
 
 .services .card a {
-  color: #001973;
+  color: #000000;
   transition: 0.3;
 }
 

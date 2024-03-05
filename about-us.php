@@ -179,7 +179,7 @@
 
       <div class="col-lg-4 col-md-6 d-flex">
         <div class="member">
-          <img src="img/brian.png" class="img-fluid " alt="">
+          <img src="img/brian.jpg" class="img-fluid " alt="">
           <div class="member-content">
             <h4>Brian Avila</h4>
             <span>Desarrollador Frontend </span>
