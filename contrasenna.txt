@@ -5,4 +5,14 @@ brian== rol admnistrador correo=1105462834 contraseña = bjulian1605
 
 la db esta en la carpeta principal, recuerda poner le nombre al crear la base de datos como esta en el archivo .sql
 (nomina_algj)
+<<<<<<< HEAD
 larry lider de la tribo indigena de sumapaz
+=======
+
+
+
+hola mundo como estan 
+
+
+
+>>>>>>> 791c393feb111019e6740f944320908e0224fe1b
