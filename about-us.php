@@ -24,11 +24,14 @@
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="style.css">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
   <!-- =======================================================
   * Template Name: Logis
   * Updated: Jan 29 2024 with Bootstrap v5.3.2
@@ -39,7 +42,41 @@
 </head>
 
 <body>
-
+<header class="section page-header">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+          data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
+          data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static"
+          data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
+          data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a href="index.html" style="color:aliceblue; font-size:25px; ">SYNCSPAY</a></div>
+              </div>
+              <div class="rd-navbar-main-element" >
+                <div class="rd-navbar-nav-wrap" >
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="index.php">INICIO</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.php">Sobre Nosotros</a>
+                    </li>
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="contacts.php">Contactanos</a>
+                    </li>
+                  </ul><a class="button button-white button-sm" href="modulo_larry/PHP/login.php">Inicia Sesion</a>
+                </div>
+              </div><a class="button button-white button-sm" href="modulo_larry/PHP/login.php">Inicia Sesion</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
   <!-- ======= Header ======= -->
   
   <!-- End Header -->

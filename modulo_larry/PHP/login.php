@@ -12,15 +12,85 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Formulario</title>
+    <script> 
+function vermas(id){
+if(id=="mas"){
+document.getElementById("desplegar").style.display="block";   
+document.getElementById("mas").style.display="none"; 
+}
+else{
+document.getElementById("desplegar").style.display="none";
+document.getElementById("mas").style.display="inline";
+}
+}
+</script>
+    <style>
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 .5em;
+  color: #fff;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+  background-color: cornflowerblue;
+}
+
+
+/* Other style */
+
+body {
+  padding: 2%;
+}
+
+p {
+  padding: 2%;
+  background: #a09d9d72;
+  border-radius: .25em;
+}
+ 
+    </style>
 </head>
 
 <body>
     <div class="container-form sign-up">
         <div class="welcome-back">
             <div class="message">
-                <h2>Bienvenido a ALG S.A.S</h2>
-                <p>INICIAR SESSION</p>
-                <button class="sign-up-btn">Iniciar Sesion</button>
+                <h2>ALGJ S.A.S</h2>
+                <div>
+   <div>
+    <div class="parrafo">
+ <h2>Términos y Condiciones del Sitio Web </h2>
+ <p>
+ Por favor, lee detenidamente estos términos y condiciones ("Términos", "Términos y Condiciones")
+  antes de utilizar el sitio web y los servicios ofrecidos por [Nombre de la Empresa] ("nosotros", "nuestro", "nosotros" o "Empresa").</p>
+  <br><h2>1. Aceptación de los Términos</h2>
+ <a href="#" onclick="vermas('mas');" id="mas">... [leer más]</a>
+ </p>
+ <p id="desplegar" style="display:none;">
+  Regresó la zorra y más le dolió el no poder vengarse, que saber de la 
+  muerte de sus pequeños; ¿Cómo podría ella, siendo un animal terrestre,
+  sin poder volar, perseguir a uno que vuela? Tuvo que conformarse con
+ el usual consuelo de los débiles e impotentes: maldecir desde lejos
+  a su enemigo.
+  <br />
+  Mas no pasó mucho tiempo para que el águila recibiera el pago de su 
+traición contra la amistad. Se encontraban en el campo unos pastores
+  sacrificando una cabra; cayó el águila sobre ella y se llevó 
+  una víscera que aún conservaba fuego, colocándola en su nido. 
+  Vino un fuerte viento y transmitió el fuego a las pajas, ardiendo 
+ también sus pequeños aguiluchos, que por pequeños aún no sabían volar, 
+  los cuales se vinieron al suelo. Corrió entonces la zorra, y tranquilamente
+ devoró a todos los aguiluchos ante los ojos de su enemiga. <br />
+  <b>“Nunca traiciones la amistad sincera, pues si lo hicieras, tarde 
+  o temprano del cielo llegará el castigo”.</b>
+  <a href="#" onclick="vermas('menos');" id="menos">... [leer menos]</a>
+  </p>
+</div>
+</div>
+   </div>
             </div>
         </div>
 
