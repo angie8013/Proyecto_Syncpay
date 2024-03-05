@@ -9,6 +9,9 @@ la db esta en la carpeta principal, recuerda poner le nombre al crear la base de
 larry lider de la tribo indigena de sumapaz
 =======
 
+<<<<<<< HEAD
+jelou
+=======
 
 
 hola mundo como estan 
