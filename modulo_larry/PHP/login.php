@@ -65,27 +65,41 @@ p {
  <h2>Términos y Condiciones del Sitio Web </h2>
  <p>
  Por favor, lee detenidamente estos términos y condiciones ("Términos", "Términos y Condiciones")
-  antes de utilizar el sitio web y los servicios ofrecidos por [Nombre de la Empresa] ("nosotros", "nuestro", "nosotros" o "Empresa").</p>
-  <br><h2>1. Aceptación de los Términos</h2>
+  antes de utilizar el sitio web y los servicios ofrecidos por [Nombre de la Empresa] ("nosotros", "nuestro", "nosotros" o "Empresa").
+  <br>
  <a href="#" onclick="vermas('mas');" id="mas">... [leer más]</a>
  </p>
  <p id="desplegar" style="display:none;">
-  Regresó la zorra y más le dolió el no poder vengarse, que saber de la 
-  muerte de sus pequeños; ¿Cómo podría ella, siendo un animal terrestre,
-  sin poder volar, perseguir a uno que vuela? Tuvo que conformarse con
- el usual consuelo de los débiles e impotentes: maldecir desde lejos
-  a su enemigo.
-  <br />
-  Mas no pasó mucho tiempo para que el águila recibiera el pago de su 
-traición contra la amistad. Se encontraban en el campo unos pastores
-  sacrificando una cabra; cayó el águila sobre ella y se llevó 
-  una víscera que aún conservaba fuego, colocándola en su nido. 
-  Vino un fuerte viento y transmitió el fuego a las pajas, ardiendo 
- también sus pequeños aguiluchos, que por pequeños aún no sabían volar, 
-  los cuales se vinieron al suelo. Corrió entonces la zorra, y tranquilamente
- devoró a todos los aguiluchos ante los ojos de su enemiga. <br />
-  <b>“Nunca traiciones la amistad sincera, pues si lo hicieras, tarde 
-  o temprano del cielo llegará el castigo”.</b>
+ <b>
+ 1. Aceptación de los Términos
+ </b>
+
+Al acceder y utilizar este sitio web, aceptas estar sujeto a estos Términos y Condiciones y a todas las leyes y regulaciones aplicables. Si no estás de acuerdo con alguno de estos términos, estás prohibido de usar o acceder a este sitio. Los materiales contenidos en este sitio web están protegidos por leyes de derechos de autor y marcas comerciales aplicables.
+
+ <b>2. Uso del Servicio</b>
+
+El servicio y todos los materiales incluidos o disponibles a través del servicio son propiedad de [Nombre de la Empresa] y están protegidos por derechos de autor, marcas comerciales y otras leyes de propiedad intelectual. El servicio está destinado a la compra de software de nómina y su uso de acuerdo con la licencia correspondiente. No puedes modificar, copiar, distribuir, transmitir, mostrar, ejecutar, reproducir, publicar, licenciar, crear trabajos derivados, transferir o vender ninguna información, software, productos o servicios obtenidos del servicio.
+
+<b>3. Registro de Cuenta</b>
+
+Para acceder a ciertas partes del sitio web, es posible que se te solicite que proporcionen cierta información de registro o crees una cuenta. Debes proporcionar información precisa y completa y actualizarla periódicamente. Eres responsable de mantener la confidencialidad de tu cuenta y contraseña y de restringir el acceso a tu computadora, y aceptas la responsabilidad de todas las actividades que ocurran bajo tu cuenta o contraseña.
+
+<b>4. Precios y Pagos</b>
+Los precios de los productos y servicios están sujetos a cambios sin previo aviso. Nos reservamos el derecho de modificar o descontinuar el servicio (o cualquier parte o contenido del mismo) en cualquier momento sin previo aviso. Nosotros no seremos responsables ante ti o cualquier tercero por cualquier modificación, cambio de precio, suspensión o descontinuación del servicio.
+
+<b>5. Responsabilidad</b>
+En ningún caso [Nombre de la Empresa], sus directores, empleados, afiliados, agentes, contratistas o licenciantes serán responsables por cualquier daño indirecto, incidental, especial, consecuente o punitivo, incluyendo sin limitación, pérdida de beneficios, datos, uso, buena voluntad o cualquier otro daño intangible, resultante de (i) tu acceso o uso o tu imposibilidad de acceder o usar el servicio; (ii) cualquier conducta o contenido de cualquier tercero en el servicio.
+
+<b>6. Ley Aplicable</b>
+Estos términos y condiciones se rigen e interpretan de acuerdo con las leyes de [País], y te sometes irrevocablemente a la jurisdicción exclusiva de los tribunales en ese Estado o ubicación.
+
+7. Cambios en los Términos y Condiciones
+
+Nos reservamos el derecho, a nuestra sola discreción, de modificar o reemplazar estos Términos y Condiciones en cualquier momento. Si una revisión es importante, intentaremos proporcionar un aviso con al menos 30 días de antelación antes de que los nuevos términos entren en vigencia. Lo que constituye un cambio importante será determinado a nuestra sola discreción.
+
+8. Contacto
+
+Si tienes alguna pregunta sobre estos Términos y Condiciones, por favor contáctanos a través de [correo electrónico de contacto].
   <a href="#" onclick="vermas('menos');" id="menos">... [leer menos]</a>
   </p>
 </div>
